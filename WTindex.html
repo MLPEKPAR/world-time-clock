@@ -7,14 +7,40 @@
     <link rel="stylesheet" href="src/WTstyle.css" />
   </head>
   <body>
-    <h1>World Time Project</h1>
-    <footer>
-      This has been coded by
-      <a href="https://github.com/MLPEKPAR">Maria Luisa Rodriguez</a>,
-      open-sourced in
-      <a href="https://github.com/MLPEKPAR/world-time-clock">Github</a> and
-      hosted by <a href=""></a>Netlify
-    </footer>
-    <script src="src/WTscript.jss"></script>
+    <div class="container">
+      <h1>World Time Project</h1>
+      <select name="city" id="city">
+        <option value="">Select a City</option>
+        <option value="malaga">Málaga</option>
+        <option value="kyev">Kyev</option>
+        <option value="habana">La Habana</option>
+      </select>
+
+      <div id="city-name">
+        Málaga
+        <div id="city-date">Tuesday, February 18, 2025</div>
+      </div>
+      <div id="city-time">9:23 AM</div>
+      <div id="city-name">
+        Kyev
+        <div id="city-date">Tuesday, February 18, 2025</div>
+      </div>
+      <div id="city-time">9:23 AM</div>
+
+      <footer>
+        This has been coded by
+        <a href="https://github.com/MLPEKPAR" target="_blank"
+          >Maria Luisa Rodriguez</a
+        >, open-sourced in
+        <a href="https://github.com/MLPEKPAR/world-time-clock" target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://world-time-clock.onrender.com/" target="_blank"
+          >Render</a
+        >
+      </footer>
+      <script src="src/WTscript.jss"></script>
+    </div>
   </body>
 </html>
