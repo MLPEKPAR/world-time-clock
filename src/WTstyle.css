@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(240, 229, 215);
+}
+
+.container {
+  max-width: 550px;
+  margin: 50px auto 10px;
+  padding: 20px 15px;
+  border: 2px solid pink;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+select {
+  padding: 7px 150px 7px 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.city1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.city-name {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.city-date {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.city-time {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+footer {
+  text-align: center;
+  font-size: smaller;
+  opacity: 0.8;
+}
