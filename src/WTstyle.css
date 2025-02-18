@@ -1,14 +1,17 @@
 body {
-  background-color: rgb(240, 229, 215);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/040/original/illuminated_globe.jpg?1739872791");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
-  max-width: 550px;
-  margin: 50px auto 10px;
+  max-width: 480px;
+  margin: 80px auto 10px 45px;
   padding: 20px 15px;
-  border: 2px solid pink;
+  border: none;
   border-radius: 5px;
-  background-color: aliceblue;
+  background-color: rgb(163, 223, 233);
+  opacity: 0.6;
 }
 
 h1 {
@@ -43,7 +46,14 @@ select {
 }
 
 footer {
-  text-align: center;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 50px;
   font-size: smaller;
+  color: aliceblue;
   opacity: 0.8;
+}
+
+a {
+  color: rgb(163, 223, 233);
 }
