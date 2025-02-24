@@ -5,12 +5,12 @@ body {
 }
 
 .container {
-  max-width: 480px;
-  margin: 80px auto 10px 45px;
+  max-width: 500px;
+  margin: 80px auto;
   padding: 20px 15px;
   border: none;
   border-radius: 5px;
-  background-color: rgb(163, 223, 233);
+  background-color: #32cbdf;
   opacity: 0.6;
 }
 
@@ -49,14 +49,10 @@ select {
 }
 
 footer {
+  margin-bottom: none;
   line-height: 1.5;
-  text-align: left;
-  margin-left: 50px;
+  text-align: center;
   font-size: smaller;
+  font-weight: 600;
   color: aliceblue;
-  opacity: 0.8;
-}
-
-a {
-  color: rgb(163, 223, 233);
 }
