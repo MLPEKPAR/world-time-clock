@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Time</title>
     <link rel="stylesheet" href="src/WTstyle.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.js"></script>
   </head>
   <body>
     <div class="container">
       <h1>World Time Clock</h1>
-      <select name="city" id="city">
+      <select name="city" id="city-choice">
         <option value="">Select a City</option>
         <option value="malaga">Málaga</option>
         <option value="kyev">Kyev</option>
         <option value="habana">La Habana</option>
       </select>
 
-      <div class="city1">
+      <div class="city1" id="malaga">
         <div class="city-name">
           Málaga
           <div class="city-date">Tuesday, February 18, 2025</div>
@@ -24,7 +26,7 @@
         <div class="city-time">9:23:00 <small>AM</small></div>
       </div>
 
-      <div class="city1">
+      <div class="city1" id="kyev">
         <div class="city-name">
           Kyev
           <div class="city-date">Tuesday, February 18, 2025</div>
