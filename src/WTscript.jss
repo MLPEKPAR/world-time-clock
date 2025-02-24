@@ -3,7 +3,7 @@ function dataUpdate() {
   let malagaElementDate = malagaElement.querySelector(".city-date");
   let malagaElementTime = malagaElement.querySelector(".city-time");
 
-  malagaElementDate.innerHTML = moment().format("MMMM, Do YYYY");
+  malagaElementDate.innerHTML = moment().format("MMMM Do YYYY");
   malagaElementTime.innerHTML = moment()
     .tz("Europe/Madrid")
     .format("h:mm:ss A");
@@ -12,7 +12,7 @@ function dataUpdate() {
   let kyevElementDate = kyevElement.querySelector(".city-date");
   let kyevElementTime = kyevElement.querySelector(".city-time");
 
-  kyevElementDate.innerHTML = moment().format("MMMM, Do YYYY");
+  kyevElementDate.innerHTML = moment().format("MMMM Do YYYY");
   kyevElementTime.innerHTML = moment().tz("Europe/Kiev").format("h:mm:ss A");
 }
 
@@ -31,7 +31,7 @@ function displayData(event) {
           </div>
           <div class="city-time">${cityTime.format(
             "hh:mm:ss"
-          )}<small> ${cityTime.format("A")}</small></div>
+          )}<span> ${cityTime.format("A")}</span></div>
         </div>`;
   }
 }
