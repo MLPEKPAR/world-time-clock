@@ -66,3 +66,7 @@ footer {
   color: aliceblue;
   opacity: 0.7;
 }
+
+a {
+  color: rgb(50, 203, 223);
+}
