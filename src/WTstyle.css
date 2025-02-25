@@ -7,13 +7,13 @@ body {
 }
 
 .container {
-  max-width: 500px;
-  margin: 90px auto 80px 50px;
+  max-width: 550px;
+  margin: 100px auto 80px 60px;
   padding: 20px 15px;
   border: none;
   border-radius: 5px;
   background-color: rgb(50, 203, 223);
-  box-shadow: 26px -26px 10px 15px rgb(50, 203, 223, 0.3);
+  box-shadow: -30px 0px 15px 15px rgb(50, 203, 223, 0.3);
   opacity: 0.5;
 }
 
@@ -25,7 +25,6 @@ h1 {
 
 select {
   display: block;
-  justify-content: center;
   margin: 8px auto 20px auto;
   padding: 7px 310px 7px 5px;
   border-radius: 4px;
@@ -45,7 +44,7 @@ select {
 
 .city-date {
   font-size: 15px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .city-time {
@@ -58,10 +57,11 @@ span {
 }
 
 footer {
-  margin-left: 50px;
+  margin-left: 60px;
   margin-bottom: none;
   line-height: 1.5;
   font-size: smaller;
   font-weight: 500;
   color: aliceblue;
+  opacity: 0.7;
 }
